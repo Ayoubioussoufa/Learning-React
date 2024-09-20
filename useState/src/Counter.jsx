@@ -4,8 +4,10 @@ function Counter() {
     let [num, setCount] = useState(0);
     // let [num, decrement] = useState(0);
 
-    let increment = () => setCount(++num);
-    let decrement = () => setCount(--num);
+    let increment = () => {
+        setCount(c => c + 1); // Updater function
+    }
+    let decrement = () => setCount(c => c + 1);
     let reset = () => setCount(0);
     return(
         <>
