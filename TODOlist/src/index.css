@@ -1,0 +1,86 @@
+.to-do-list {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+button {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: rgb(73, 46, 46);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.add-button {
+    background-color: blueviolet;
+}
+
+.add-button:hover {
+    background-color: burlywood;
+}
+
+.delete-button {
+    background-color: blueviolet;
+}
+
+.delete-button:hover {
+    background-color: burlywood;
+}
+
+.move-button {
+    background-color: blueviolet;
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+.move-button:hover {
+    background-color: burlywood;
+}
+
+.down-button {
+    background-color: blueviolet;
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+.down-button:hover {
+    background-color: burlywood;
+}
+
+input[type="text"] {
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    /* background-color: rgb(191, 219, 210); */
+    margin-bottom: 15px;
+    border: 3px solid antiquewhite;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
